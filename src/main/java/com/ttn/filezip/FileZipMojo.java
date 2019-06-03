@@ -27,12 +27,6 @@ import java.io.*;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-/**
- * Goal which touches a timestamp file.
- *
- * @goal touch
- * @phase process-sources
- */
 @Mojo(name = "zip", defaultPhase = LifecyclePhase.GENERATE_RESOURCES)
 public class FileZipMojo extends AbstractMojo {
     private static final String FILE_EXTENSION = ".zip";
